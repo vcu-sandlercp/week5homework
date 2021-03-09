@@ -3,7 +3,7 @@
 
 def find_greatest_number(incoming_list):
     #creates a list of numbers called incoming_list
-    incoming_list = ['2', '8', '15', '16', '23', '42']
+    first_incoming_list = ['2', '8', '15', '16', '23', '42']
 
     #find the greates number in the list 
     logging.debug("Greatest number in list is: %d", max(incoming_list) )
@@ -17,7 +17,8 @@ def find_greatest_number(incoming_list):
 
 def find_least_number(incoming_list):
 
-    #use same list as before, but find least number
+    #use second list, but find least number
+    second_incoming_list = ['2', '8', '15', '16', '23', '42']
     logging.debug("Smallest number in the list is: %d", min(incoming_list))
 
     """
@@ -28,7 +29,8 @@ def find_least_number(incoming_list):
 
 
 def add_list_numbers(incoming_list):
-    #use the sum() function to add the numbers together in the list
+    #use the sum() function to add the numbers together in the third list
+    third_incoming_list = ['2', '8', '15', '16', '23', '42']
     logging.debug("Sum of numbers in the list is: %d", sum(incoming_list))
 
     """
